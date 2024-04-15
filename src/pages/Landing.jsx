@@ -10,7 +10,7 @@ const Landing = () => {
     <div>
       <div className="bg-black p-16">
       <div className="bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300 border rounded-xl p-10">
-        <Header name={data.state.user} />
+        <Header username={data.state.user} />
 
         <div className="flex justify-between gap-7 my-5 flex-wrap mt-7">
           <Card bgcolor={"#8272DA"} title={"23"} subtitle={"Chennai"} />
